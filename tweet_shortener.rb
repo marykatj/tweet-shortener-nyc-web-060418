@@ -20,4 +20,5 @@ def word_substituter(tweet)
       dictionary.keys = dictionary.values
     end
   end
+  tweet.join(",")
 end
