@@ -15,7 +15,7 @@
 def word_substituter(tweet)
   long_words = tweet.split(" ")
   short_tweet = []
-  
+
   long_words.collect do |word|
     case word.downcase
     when "hello"
@@ -24,7 +24,7 @@ def word_substituter(tweet)
       short_tweet << "2"
     when "for", "four"
       short_tweet << "4"
-    when "be" 
+    when "be"
       short_tweet << "b"
     when "you"
       short_tweet << "u"
