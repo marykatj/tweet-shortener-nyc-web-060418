@@ -22,5 +22,6 @@ def word_substituter(tweet)
       word = key
     end
   end
+  end
   tweet.join(",")
 end
