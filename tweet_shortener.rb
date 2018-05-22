@@ -18,10 +18,10 @@ def word_substituter(tweet)
   tweet.split(", ")
   tweet.collect do |word|
     keys.collect do |key|
-    if word == key
-      word = key
+      if word == key
+        word = key
+      end
     end
-  end
   end
   tweet.join(",")
 end
